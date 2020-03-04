@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background-color: rgb(83, 66, 63);
+}
+
+li {
+    color: silver;
+}
+
+h1 {
+    color: yellow;
+}
+
+p {
+    color: blue;
+}
+
+#youths {
+    display: none;
+}
+
+svg {
+    circle:
+}

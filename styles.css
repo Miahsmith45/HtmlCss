@@ -1,0 +1,27 @@
+#block1 {
+    background-color: green;
+}
+
+#block3 {
+    background-color: white;
+}
+
+.block {
+    background-color: yellow;
+}
+
+div {
+    background: yellow;
+}
+
+body {
+    background: pink;
+    display: flex;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: black;
+}

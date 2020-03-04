@@ -1,0 +1,95 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+.bg-image {
+    position: absolute;
+    /* The image used */
+    background-image: url("https://www.innovadiscs.com/wp-content/uploads/2015/06/course-target-featured.jpg");
+    /* Add the blur effect */
+    filter: blur(12px);
+    -webkit-filter: blur(12px);
+    /* Full height */
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+    display: flex;
+    width: 320px;
+    padding: 20px 30px;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 black;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-small;
+}
+
+div.login {
+    width: auto;
+}
+
+.bottom-stuff {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    color: white;
+}
+
+.longin {
+    width: 100px;
+}
+
+button.login {
+    width: 100%;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background: #3a84de;
+    color: white;
+    padding: 5px 0px;
+    margin: 10px 0px;
+}
+
+.container {
+    width: 80%;
+    ;
+}
+
+button.login:hover {
+    cursor: pointer;
+    background: #204b80;
+}
+
+.rememberme-container {
+    color: white;
+    display: flex;
+    margin: 5px 0px;
+}
+
+.inputstuff-input {
+    background: transparent;
+    border: white 1px solid;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+}
